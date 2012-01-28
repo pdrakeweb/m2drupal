@@ -64,8 +64,8 @@ Example
 To run the example, run the following commands:
 
     $ cd example
-    $ m2sh load
-    $ m2sh start
+    $ m2sh load --config ./mongrel2.conf
+    $ m2sh start --host localhost
     # in a separate shell
     $ php hello.php
     # in a separate shell or browser
